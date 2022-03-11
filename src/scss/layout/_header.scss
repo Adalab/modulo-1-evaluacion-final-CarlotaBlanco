@@ -1,5 +1,30 @@
-.page__header {
+.header {
+  position: sticky;
+  top: 0;
+  background-color: transparent;
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  flex-direction: column;
+  align-items: center;
+  z-index: 999;
+}
+
+.header__menu {
+  display: none;
+}
+
+.header__burger {
+  position: absolute;
+  top: 55px;
+  left: 33px;
+}
+
+.header__burger--link {
+  font-size: 24px;
+  color: $colorDarkgreen;
+}
+
+.header__logo {
+  width: 213px;
+  height: 96px;
+  margin-top: 19px;
 }
