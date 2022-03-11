@@ -10,126 +10,174 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+
     <link rel="stylesheet" href="./assets/css/main.css" />
     <title>Evaluación final módulo 1 Carlota Blanco Aylagas</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="header">
       <nav class="header__burger">
         <a
           href="https://adalab.es/"
           class="header__burger--link"
           title="Menú Hamburguesa"
-          >Menu Hamburguesa</a
-        >
+          ><i class="fas fa-bars"></i
+        ></a>
       </nav>
       <nav class="header__menu">
         <ul class="header__menu--items">
-          <li class="header__menu--items_link">Productos</li>
-          <li class="header__menu--items_link">Colecciones</li>
-          <li class="header__menu--items_link">Tienda</li>
-          <li class="header__menu--items_link">Inicio</li>
+          <li class="header__menu--items_link">
+            <a href="https://adalab.es/" title="Productos">Productos</a>
+          </li>
+          <li class="header__menu--items_link">
+            <a href="https://adalab.es/" title="Colecciones">Colecciones</a>
+          </li>
+          <li class="header__menu--items_link">
+            <a href="https://adalab.es/" title="Tienda">Tienda</a>
+          </li>
+          <li class="header__menu--items_link">
+            <a href="https://adalab.es/" title="Inicio">Inicio</a>
+          </li>
         </ul>
       </nav>
-      <img src="" alt="logo" title="Logo Open Spaces" />
+      <img
+        class="header__logo"
+        src="./assets/images/logo.png"
+        alt="logo"
+        title="Logo Open Spaces"
+      />
     </header>
+
     <main>
       <section class="hero">
         <h1 class="hero__title">Disfruta creando espacios</h1>
         <button class="hero__button">Comprar ahora</button>
       </section>
+
       <section class="section1">
         <h2 class="section1__title">
           Volverse organizado se siente mejor con
           <span class="section1__title--caps">Open Spaces</span>
         </h2>
         <article class="article">
-          <img src="" alt="" class="article__image" />
+          <img src="./assets/images/icon_1.png" alt="Icono productos" class="article__image" />
           <h3 class="article__title">Lo que necesitas</h3>
-          <p class="article__text">
-            Una línea de productos diseñados para todos tus espacios
-          </p>
+          <p class="article__text">Una línea de productos diseñados para todos tus espacios</p>
         </article>
+
         <article class="article">
-          <img src="" alt="" class="article__image" />
-          <h3 class="article__title">Lo que necesitas</h3>
-          <p class="article__text">
-            Una línea de productos diseñados para todos tus espacios
-          </p>
+          <img src="./assets/images/icon_2.png" alt="Icono materias primas" class="article__image" />
+          <h3 class="article__title">Materias primas sustentables</h3>
+          <p class="article__text">Todos los productos con materias primas sustentables</p>
         </article>
+
         <article class="article">
-          <img src="" alt="" class="article__image" />
-          <h3 class="article__title">Lo que necesitas</h3>
-          <p class="article__text">
-            Una línea de productos diseñados para todos tus espacios
-          </p>
+          <img src="./assets/images/icon_3.png" alt="Icono guía" class="article__image" />
+          <h3 class="article__title">Guía</h3>
+          <p class="article__text">Soporte y asesoramiento para ayudarte con tu objetivo</p>
         </article>
+
       </section>
+
       <section class="section2">
         <img src="" alt="" class="section2_img" />
         <h2 class="section2_title">Envío gratis garantizado</h2>
         <p class="section2_text">Envío gratis en compras desde 100</p>
         <button class="section2_button">Comprar ahora</button>
       </section>
+
       <section class="section3">
         <h2 class="section3__title">Disfruta creando espacios</h2>
         <p class="section3_text">
           Una línea de productos diseñados para todos tus espacios
         </p>
         <button class="section3__button">Comprar ahora</button>
-        <img
-          src="./assets/images/creando-espacios.jpg"
-          alt="Creando Espacios"
-        />
+        <img src="./assets/images/creando-espacios.jpg" alt="Creando Espacios" />
       </section>
-      <footer class="footer">
-        <div>
-          <h3>Tienda</h3>
-          <nav>
-            <ul>
-              <li><a>Productos</a></li>
-              <li><a>Cajoneras</a></li>
-              <li><a>Para toda la casa</a></li>
-              <li><a>Habitaciones</a></li>
-            </ul>
-          </nav>
-        </div>
-        <div>
-          <h3>Nosotros</h3>
-          <nav>
-            <ul>
-              <li><a href="">Nuestra guía</a></li>
-              <li><a href="">Nuestro diseño</a></li>
-              <li><a href="">Nuestra historia</a></li>
-              <li><a href="">Ayuda</a></li>
-            </ul>
-          </nav>
-        </div>
-        <div>
-          <h3>Contacto</h3>
-          <nav>
-            <ul>
-              <li>
-                <a href="mailto:ayuda@openspaces.com">ayuda@openspaces.com</a>
-              </li>
-              <li><a href="">Socios</a></li>
-            </ul>
-          </nav>
-          <nav>
-            <ul>
-              <li>
-                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-              </li>
-              <li>
-                <a href=""><i class="fa-brands fa-instagram"></i></a>
-              </li>
-              <li>
-                <a href=""><i class="fa-brands fa-twitter"></i></a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </footer>
+
     </main>
+
+    <footer class="footer">
+      <div>
+        <h3>Tienda</h3>
+        <nav>
+          <ul>
+            <li>
+              <a href="https://adalab.es/" title="Productos">Productos</a>
+            </li>
+            <li>
+              <a href="https://adalab.es/" title="Cajoneras">Cajoneras</a>
+            </li>
+            <li>
+              <a href="https://adalab.es/" title="Para toda la casa"
+                >Para toda la casa</a
+              >
+            </li>
+            <li>
+              <a href="https://adalab.es/" title="Habitaciones">Habitaciones</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div>
+        <h3>Nosotros</h3>
+        <nav>
+          <ul>
+            <li>
+              <a href="https://adalab.es/" title="Nuestra guía">Nuestra guía</a>
+            </li>
+            <li>
+              <a href="https://adalab.es/" title="Nuestro diseño">Nuestro diseño</a>
+            </li>
+            <li>
+              <a href="https://adalab.es/" title="Nuestra historia"
+                >Nuestra historia</a
+              >
+            </li>
+            <li><a href="https://adalab.es/" title="Ayuda">Ayuda</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div>
+        <h3>Contacto</h3>
+        <nav>
+          <ul>
+            <li>
+              <a href="mailto:ayuda@openspaces.com" title="Email"
+                >ayuda@openspaces.com</a
+              >
+            </li>
+            <li><a href="https://adalab.es/" title="Socios">Socios</a></li>
+          </ul>
+        </nav>
+        <nav>
+          <ul>
+            <li>
+              <a href="https://adalab.es/" title="linkedin"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://adalab.es/" title="instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://adalab.es/" title="twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <a href="./index.html#header" title="subir"><i class="fa fa-arrow-up"></i></a>
+    </footer>
+
   </body>
 </html>
