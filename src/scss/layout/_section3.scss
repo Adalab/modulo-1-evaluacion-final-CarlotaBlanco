@@ -33,3 +33,35 @@
 .section3__container--text {
   font-size: 14px;
 }
+
+@media all and (min-width: 768px) {
+  .section3__container--title {
+    font-size: 30px;
+  }
+  .section3__container--text {
+    margin-top: 10px;
+    max-width: 50%;
+  }
+}
+@media all and (min-width: 1200px) {
+  .section3 {
+    flex-direction: row;
+    align-items: center;
+  }
+  .section3__container {
+    width: 50%;
+    align-items: flex-start;
+    padding: 14%;
+  }
+  .section3__image {
+    width: 50%;
+  }
+  .section3__container--text {
+    text-align: left;
+    max-width: 250px;
+  }
+  .section3__container--title {
+    max-width: 260px;
+    text-align: left;
+  }
+}

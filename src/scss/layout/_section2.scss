@@ -32,4 +32,16 @@
   .section2__title {
     font-size: 30px;
   }
+  .section2__text {
+    margin: 10px 0;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .section2__title {
+    font-size: 36px;
+  }
+  .section2__text {
+    font-size: 16px;
+  }
 }

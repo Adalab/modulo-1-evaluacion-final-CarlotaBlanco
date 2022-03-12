@@ -18,6 +18,9 @@
   line-height: 20px;
 }
 
+.footer__container--title {
+  font-size: 20px;
+}
 .footer__container--menu_item {
   text-decoration: none;
   color: $colorLightgreen;
@@ -41,4 +44,21 @@
   text-decoration: none;
   font-size: 26px;
   color: $colorWhite;
+}
+
+@media all and (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+    height: 276px;
+    align-items: flex-end;
+    padding: 71px 57px 71px 80px;
+  }
+}
+@media all and (min-width: 1200px) {
+  .footer__container--menu_item {
+    font-size: 16px;
+  }
+  .footer__container--title {
+    font-size: 24px;
+  }
 }
