@@ -10,3 +10,15 @@
   width: 90px;
   margin-bottom: 40px;
 }
+
+@media all and (min-width: 768px) {
+  .article {
+    padding: 35px 15px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .article {
+    padding: 45px 80px 35px 80px;
+  }
+}

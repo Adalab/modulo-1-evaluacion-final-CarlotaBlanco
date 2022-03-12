@@ -5,8 +5,28 @@
   grid-template-columns: 1fr;
   text-align: center;
   padding: 41px 47px 41px 45px;
+  justify-items: center;
 }
 
 .section1__title--caps {
   text-transform: uppercase;
+}
+
+@media all and (min-width: 768px) {
+  .section1 {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 60px 40px;
+  }
+  .section1__title {
+    grid-column: 1/4;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .section1 {
+    padding: 42px;
+  }
+  .section1__title {
+    max-width: 50%;
+  }
 }

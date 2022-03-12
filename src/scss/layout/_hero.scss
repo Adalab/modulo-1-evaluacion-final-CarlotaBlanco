@@ -25,3 +25,28 @@
   padding: 12px 24px;
   text-transform: capitalize;
 }
+
+@media all and (min-width: 768px) {
+  .hero {
+    height: 100vh;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 147px;
+  }
+  .hero__title {
+    font-size: 36px;
+    max-width: 75%;
+  }
+  .hero__button {
+    margin-bottom: 0;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .hero {
+    padding: 0 75px;
+  }
+  .hero__title {
+    max-width: 35%;
+  }
+}

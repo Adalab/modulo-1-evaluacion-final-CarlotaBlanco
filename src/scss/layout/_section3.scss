@@ -1,0 +1,35 @@
+.section3 {
+  background-color: $colorBeige;
+  color: $colorDarkgreen;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.section3__container {
+  height: 339px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 27px;
+}
+
+.section3__container--button {
+  margin-top: 24px;
+  background-color: $colorDarkgreen;
+  color: $colorWhite;
+  font-family: $fontMain;
+  font-size: 16px;
+  padding: 12px 24px;
+  text-transform: capitalize;
+}
+
+.section3__container--title {
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+.section3__container--text {
+  font-size: 14px;
+}

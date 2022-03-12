@@ -1,8 +1,44 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+.footer {
+  background-color: $colorDarkgreen;
+  color: $colorLightgreen;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 56px 28px 16px 28px;
+  height: 545px;
+}
+.footer__container {
+  width: 50%;
+}
+
+.footer__container--menu {
+  list-style: none;
+  line-height: 20px;
+}
+
+.footer__container--menu_item {
+  text-decoration: none;
+  color: $colorLightgreen;
+  font-size: 14px;
+}
+
+.footer__container--menu_rrss {
+  display: inline-block;
+  padding-right: 11px;
+  padding-top: 20px;
+}
+
+.footer__container--menu_symbol {
+  font-size: 26px;
+  color: $colorWhite;
+}
+.footer__arrow {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  text-decoration: none;
+  font-size: 26px;
+  color: $colorWhite;
 }

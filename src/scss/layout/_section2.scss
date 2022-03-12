@@ -1,0 +1,35 @@
+.section2 {
+  text-align: center;
+  background-color: $colorOrange;
+  color: $colorWhite;
+  padding: 46px 0 51px 0;
+}
+
+.section2__button {
+  background-color: transparent;
+  color: $colorWhite;
+  font-family: $fontMain;
+  font-size: 16px;
+  padding: 12px 24px;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+.section2__title {
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+.section2__text {
+  font-size: 14px;
+}
+
+.section2__img {
+  width: 120px;
+}
+
+@media all and (min-width: 768px) {
+  .section2__title {
+    font-size: 30px;
+  }
+}

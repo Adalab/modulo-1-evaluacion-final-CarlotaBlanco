@@ -7,11 +7,11 @@
   width: 100vw;
 }
 
-.header__menu {
+.header__menu_list {
   display: none;
 }
 
-.header__burger {
+.header__menu {
   position: absolute;
   top: 55px;
   left: 33px;
@@ -26,4 +26,41 @@
   width: 213px;
   height: 96px;
   margin-top: 19px;
+}
+
+@media all and (min-width: 768px) {
+  .header__logo {
+    margin-top: 39px;
+  }
+  .header__menu_list {
+    display: none;
+  }
+  .header__menu {
+    top: 75px;
+    left: 82px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .header__burger {
+    display: none;
+  }
+
+  .header__menu--items {
+    list-style: none;
+    display: inline-block;
+    padding: 0 15px;
+  }
+  .header__menu_list {
+    display: flex;
+    align-items: center;
+  }
+
+  .header__menu--items_link {
+    text-decoration: none;
+    color: $colorDarkgreen;
+  }
+  .header__menu {
+    left: 60px;
+  }
 }
