@@ -1,24 +1,16 @@
 .article {
   padding: 30px 60px;
-}
-
-.article__title {
-  margin-bottom: 12px;
-}
-
-.article__image {
-  width: 90px;
-  margin-bottom: 40px;
-}
-
-@media all and (min-width: 768px) {
-  .article {
+  &__title {
+    margin-bottom: 12px;
+  }
+  &__image {
+    width: 90px;
+    margin-bottom: 40px;
+  }
+  @media all and (min-width: 768px) {
     padding: 35px 15px;
   }
-}
-
-@media all and (min-width: 1200px) {
-  .article {
+  @media all and (min-width: 1200px) {
     padding: 45px 80px 35px 80px;
   }
 }

@@ -3,45 +3,42 @@
   background-color: $colorOrange;
   color: $colorWhite;
   padding: 46px 0 51px 0;
-}
-
-.section2__button {
-  background-color: transparent;
-  color: $colorWhite;
-  font-family: $fontMain;
-  font-size: 16px;
-  padding: 12px 24px;
-  text-decoration: underline;
-  margin-top: 10px;
-}
-
-.section2__title {
-  margin-top: 10px;
-  font-size: 24px;
-}
-
-.section2__text {
-  font-size: 14px;
-}
-
-.section2__img {
-  width: 120px;
-}
-
-@media all and (min-width: 768px) {
-  .section2__title {
-    font-size: 30px;
-  }
-  .section2__text {
-    margin: 10px 0;
-  }
-}
-
-@media all and (min-width: 1200px) {
-  .section2__title {
-    font-size: 36px;
-  }
-  .section2__text {
+  height: max-content;
+  &__button {
+    background-color: transparent;
+    color: $colorWhite;
+    font-family: $fontMain;
     font-size: 16px;
+    padding: 12px 24px;
+    text-decoration: underline;
+    margin-top: 10px;
+    transition: box-shadow ease 0.8s, text-decoration ease 0.8s;
+  }
+
+  &__button:hover {
+    text-decoration: none;
+    box-shadow: inset 0 0 0 2px $colorWhite;
+  }
+  &__title {
+    margin-top: 10px;
+    font-size: 24px;
+    @media all and (min-width: 768px) {
+      font-size: 30px;
+    }
+    @media all and (min-width: 1200px) {
+      font-size: 36px;
+    }
+  }
+  &__text {
+    font-size: 14px;
+    @media all and (min-width: 768px) {
+      margin: 10px 0;
+    }
+    @media all and (min-width: 1200px) {
+      font-size: 16px;
+    }
+  }
+  &__img {
+    width: 120px;
   }
 }

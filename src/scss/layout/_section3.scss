@@ -4,64 +4,62 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-}
+  &__container {
+    height: 339px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 27px;
 
-.section3__container {
-  height: 339px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0 27px;
-}
+    &--button {
+      margin-top: 24px;
+      background-color: $colorDarkgreen;
+      color: $colorWhite;
+      font-family: $fontMain;
+      font-size: 16px;
+      padding: 12px 24px;
+      text-transform: capitalize;
+      transition: background-color ease 0.8s;
+    }
+    &--button:hover {
+      background-color: $colorOrange;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    }
 
-.section3__container--button {
-  margin-top: 24px;
-  background-color: $colorDarkgreen;
-  color: $colorWhite;
-  font-family: $fontMain;
-  font-size: 16px;
-  padding: 12px 24px;
-  text-transform: capitalize;
-}
-
-.section3__container--title {
-  margin-top: 10px;
-  font-size: 24px;
-}
-
-.section3__container--text {
-  font-size: 14px;
-}
-
-@media all and (min-width: 768px) {
-  .section3__container--title {
-    font-size: 30px;
+    &--title {
+      margin-top: 10px;
+      font-size: 24px;
+      @media all and (min-width: 768px) {
+        font-size: 30px;
+      }
+      @media all and (min-width: 1200px) {
+        max-width: 260px;
+        text-align: left;
+      }
+    }
+    &--text {
+      font-size: 14px;
+      @media all and (min-width: 768px) {
+        margin-top: 10px;
+        max-width: 50%;
+      }
+      @media all and (min-width: 1200px) {
+        text-align: left;
+        max-width: 250px;
+      }
+    }
+    @media all and (min-width: 1200px) {
+      width: 50%;
+      align-items: flex-start;
+      padding: 14%;
+    }
   }
-  .section3__container--text {
-    margin-top: 10px;
-    max-width: 50%;
-  }
-}
-@media all and (min-width: 1200px) {
-  .section3 {
+  @media all and (min-width: 1200px) {
     flex-direction: row;
     align-items: center;
-  }
-  .section3__container {
-    width: 50%;
-    align-items: flex-start;
-    padding: 14%;
-  }
-  .section3__image {
-    width: 50%;
-  }
-  .section3__container--text {
-    text-align: left;
-    max-width: 250px;
-  }
-  .section3__container--title {
-    max-width: 260px;
-    text-align: left;
+    &__image {
+      width: 50%;
+    }
   }
 }
