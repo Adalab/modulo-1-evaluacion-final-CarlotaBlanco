@@ -45,6 +45,50 @@
     text-decoration: none;
     font-size: 26px;
     color: $colorWhite;
+    animation: animatedArrow 3s ease 0s infinite normal none;
+  }
+
+  @keyframes animatedArrow {
+    0% {
+      transform-origin: center;
+      transform: scale(0);
+    }
+    25% {
+      transform-origin: center;
+      transform: scale(1);
+    }
+    30% {
+      transform-origin: center;
+      transform: scale(0.8);
+    }
+    35% {
+      transform-origin: center;
+      transform: scale(1);
+    }
+    40% {
+      transform-origin: center;
+      transform: scale(0.8);
+    }
+    45% {
+      transform-origin: center;
+      transform: scale(1);
+    }
+    50% {
+      transform-origin: center;
+      transform: scale(0.8);
+    }
+    55% {
+      transform-origin: center;
+      transform: scale(1);
+    }
+    60% {
+      transform-origin: center;
+      transform: scale(0.8);
+    }
+    65% {
+      transform-origin: center;
+      transform: scale(1);
+    }
   }
   @media all and (min-width: 768px) {
     flex-direction: row;
